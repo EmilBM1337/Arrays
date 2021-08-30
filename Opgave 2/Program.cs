@@ -10,7 +10,7 @@ namespace Opgave_2
             string[] efterNavn = new string[7] { "Simonsen", "Jensen", "Trump", "Biden", "Jong-un", "Madsen", "Thomsen"};
             Random rnd = new Random();
 
-            for ()
+            for (int i = 0; i < 10; i++)
             {
                 string randomFirstName = forNavn[rnd.Next(0, forNavn.Length)];
                 string randomLastName = efterNavn[rnd.Next(0, efterNavn.Length)];
