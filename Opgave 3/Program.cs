@@ -8,7 +8,7 @@ namespace Opgave_3
         {
             Console.WriteLine("Her er nogle tal.");
             Console.WriteLine("");
-            int[] tal = new int[] { 0, 66, 666, 420, 1138, 1337, 7777};
+            int[] tal = new int[] { 0, 66, 420, 666, 1138, 1337, 7777};
 
             for (int i = 0; i < tal.Length; i++)
             {
