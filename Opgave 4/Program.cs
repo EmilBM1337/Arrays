@@ -14,8 +14,7 @@ namespace Opgave_4
             {
                 navne[i] = Console.ReadLine();
             }
-            Console.WriteLine("");
-            Console.WriteLine("De fem naven du har indtastet er:");
+            Console.WriteLine("\nDe fem naven du har indtastet er:");
             for (int i = 0; i < navne.Length; i++)
             {
                 Console.WriteLine(navne [i]);
